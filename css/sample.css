@@ -46,10 +46,10 @@ li {
   background-color: #fff;
   display: table-cell; /* 定義 */
   cursor: pointer;
-  color: #0d7dfd;
+  color: rgb(6, 216, 65);
 }
 li:hover {
-  background: #0d7dfd;
+  background: rgb(6, 216, 65);
   color: #fff;
 }
 textarea {
@@ -64,24 +64,25 @@ textarea {
   margin: 0 3%;
   width: 95%;
   font-size: 80%;
-  background-color: #e1efff;
+  background-color: #95f2ae;
   box-shadow: 3px 3px 3px 3px #555;
 }
 table {
   margin: 20px 3%;
-  border: 1px solid #8dc3f5;
+  border: 1px solid #95f2ae;
   width: 96%;
 }
 th {
   width: 30%;
   font-size: 24px;
-  background-color: #d0e7fc;
-  border-bottom: 1px solid #8dc3f5;
+  background-color: #95f2ae;
+  border-bottom: 1px solid;
 }
 td {
   font-size: 16px;
   background-color: rgb(241, 239, 239);
-  border-bottom: 1px solid #8dc3f5;
+  border-bottom: 1px solid ;
+  /* 追加された表の下線 */
 }
 input {
   margin: 10px 3%;
